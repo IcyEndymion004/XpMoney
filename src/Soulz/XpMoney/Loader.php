@@ -39,8 +39,6 @@ class Loader extends PluginBase implements Listener {
     }
 
     public function onEnable(){
-        $this->getServer()->getLogger(TextFormat::GRAY . "Server now Enabling XpMoney...");
-
         $this->getServer()->registerEvents($this, $this);
     }
 
@@ -118,8 +116,8 @@ class Loader extends PluginBase implements Listener {
                     $player->sendMessage(Loader::ALERT . "You do not have enough money for this action! " . TextFormat::GOLD . "Money Needed: " . $cost);
                 } else {
                     $player->addtXp($amount);
-                    $eco->reduceMoney($player, $amount)
-                    $player->sendMessage(Loader::SUCCESS . "You have bought "  . TextFormat::AQUA . " $amount " . TextFormat::GRAY . " EXP for " . TextFormat::AQUA . $cost . TextFormat::GRAY . " Money!");
+                    $eco->reduceMoney($player, $amount);
+                    $player->sendMessage(Loader::SUCCESS . "You have bought " . TextFormat::AQUA . " $amount " . TextFormat::GRAY . " EXP for " . TextFormat::AQUA . $cost . TextFormat::GRAY . " Money!");
                 }
                 return;
             }
