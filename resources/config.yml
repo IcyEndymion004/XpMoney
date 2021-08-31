@@ -1,2 +1,5 @@
-# How much xp for $
-xp-per-money-tick: 300
+# How much xp for $1
+xp-per-money-tick: 1
+
+# How much money for 1 EXP
+money-per-xp-tick: 1000
