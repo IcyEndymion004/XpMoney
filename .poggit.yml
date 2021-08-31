@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Pinesolz/XpMoney
+build-by-default: true
+branches:
+- main
+projects:
+  XpMoney:
+    path: ""
+    icon: "xpbottle.png"
+...
