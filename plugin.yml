@@ -1,0 +1,12 @@
+name: XpMoney
+main: Soulz\XpMoney\Loader
+version: 1.0.0
+author: Soulz
+api: 3.0.0
+description: "Transfer economies!"
+commands:
+  xpmoney:
+    default: true
+    description: "Trade money for xp, and vice versa"
+depent:
+  - "EconomyAPI"
