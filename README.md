@@ -21,8 +21,10 @@ This plugin requires:<br>
       jojoe77777's FormAPI is built into this plugin, so no need to download the virion seperately!
 
 # Contact
-- Soul ✞#9999 (Discord)
+| Discord | DemeterCraft |
+| :-----: | :----------: |
+|Soul ✞#9999|[![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/kFacgS29ay)|
 
 # Reporting Bugs
-To report a bug, open an issue on the Github:<br.
+To report a bug, open an issue on the Github:<br>
 https://github.com/Pinesolz/XpMoney
